@@ -4,7 +4,7 @@ import Button from '../../../UI/Button/Button';
 import './ChirpUser.css';
 
 const ChirpUser = ( props ) => {
-    
+
     // We display a follow or unfollow button, accordingly
     let followBtn;
     if ( props.isFollowing ) {
@@ -22,7 +22,7 @@ const ChirpUser = ( props ) => {
                 </span>
                 <span className="Name-Username-Container">
                     <div className="Name-User">{ props.nameUser }</div>
-                    <div className="Username">{ props.username }</div>
+                    <div className="Username">@{ props.username }</div>
                 </span>
             </div>
             <div className="Chirp-Follow-Container">

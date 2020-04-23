@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import ChirpUser from '../Chirp/ChirpUser/ChirpUser';
 import ChirpText from '../Chirp/ChirpText/ChirpText';
 import ChirpPhotos from '../Chirp/ChirpPhotos/ChirpPhotos';
@@ -8,7 +8,7 @@ import { connect } from 'react-redux';
 import './Chirp.css';
 
 const Chirp = ( props ) => {
-    let chirp = props.chirps[ props.index ];
+    let chirp = props.chirps[ props.id ];
     console.log(chirp);
 
     return (

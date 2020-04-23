@@ -1,9 +1,10 @@
 .Chirp {
     background-color: white;
-    width: 25%;
+    width: 100%;
     border-radius: 10px;
-    padding: 1%;
+    padding: 5%;
     text-align: left;
+    margin-bottom: 20px;
 }
 
 .Chirp-Control-Divider {
