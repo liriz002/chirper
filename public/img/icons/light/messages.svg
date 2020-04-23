@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="16px" viewBox="0 0 24 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>icons/light/messages</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Exports-for-Dev-Candidate" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons/light/messages" transform="translate(0.000000, -0.324634)" fill="#FFFFFF">
+            <g id="Group-5">
+                <path d="M0.5003,5.13683514 L11.8305267,10.5477887 C11.9667987,10.6128679 12.1251839,10.6128706 12.2614581,10.547796 L23.5923,5.13701722 L23.5923,14.876 C23.5923,15.649 22.9653,16.276 22.1923,16.276 L1.9003,16.276 C1.1273,16.276 0.5003,15.649 0.5003,14.876 L0.5003,5.13683514 Z M0.5003,4.08248379 L0.5003,1.9 C0.5003,1.127 1.1273,0.5 1.9003,0.5 L22.1923,0.5 C22.9653,0.5 23.5923,1.127 23.5923,1.9 L23.5923,4.0824839 C23.5201862,4.0825348 23.4469522,4.09825877 23.3775419,4.13140402 L12.0460093,9.54251259 L0.71547329,4.13141128 C0.645930385,4.09819981 0.572548439,4.08247671 0.5003,4.08248379 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

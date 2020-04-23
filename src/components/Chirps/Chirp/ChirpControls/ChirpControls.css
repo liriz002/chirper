@@ -1,0 +1,21 @@
+.Chirp-Controls {
+    display: flex;
+}
+
+.Chirp-Control-Container {
+    display: flex;    
+    cursor: pointer;
+}
+
+.Chirp-Control-Count {
+    font-size: 9px;
+    margin-left: 4px;
+    font-weight: bold;
+    color: grey;
+}
+
+.Chirp-Control-Img {
+    height: 13px;
+    width: auto;
+}
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="24px" viewBox="0 0 19 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>icons/light/notifications</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Exports-for-Dev-Candidate" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons/light/notifications" transform="translate(0.000000, -0.324634)" fill="#FFFFFF">
+            <g id="Group-15">
+                <path d="M11.9702,20.9018 C11.9702,22.3178 10.8232,23.4648 9.4072,23.4648 C7.9912,23.4648 6.8442,22.3178 6.8442,20.9018" id="Stroke-1"></path>
+                <path d="M16.2231,18.0961 L2.5911,18.0961" id="Stroke-3"></path>
+                <path d="M2.5913,14.9531 L2.5913,10.2011 C2.5913,6.4361 5.6433,3.3851 9.4073,3.3851 C13.1713,3.3851 16.2233,6.4361 16.2233,10.2011 L16.2233,14.0951 L17.0659162,18.5626416 L16.2233,19.4740089 L2.5913,19.4740089 L1.83036049,18.5626416" id="Stroke-5"></path>
+                <path d="M16.895,20.936 L1.92,20.936 C1.136,20.936 0.5,20.3 0.5,19.516 C0.5,18.732 1.136,18.096 1.92,18.096 L16.895,18.096 C17.679,18.096 18.315,18.732 18.315,19.516 C18.315,20.3 17.679,20.936 16.895,20.936 Z" id="Stroke-7"></path>
+                <path d="M2.5913,14.2411 C2.5913,16.0331 2.5883,17.2901 1.9203,18.0961" id="Stroke-9"></path>
+                <path d="M16.2231,14.2411 C16.2231,16.0331 16.2261,17.2901 16.8951,18.0961" id="Stroke-11"></path>
+                <path d="M10.8501,1.9423 C10.8501,1.1463 10.2041,0.5003 9.4081,0.5003 C8.6111,0.5003 7.9651,1.1463 7.9651,1.9423 C7.9651,2.7383 8.6111,3.3843 9.4081,3.3843 C10.2041,3.3843 10.8501,2.7383 10.8501,1.9423 Z" id="Stroke-13"></path>
+            </g>
+        </g>
+    </g>
+</svg>

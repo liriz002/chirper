@@ -1,9 +1,10 @@
 import React from 'react';
+import './ChirpText.css';
 
-const ChirpText = () => {
+const ChirpText = ( props ) => {
     return (
-        <div>
-            <p>Saw these beautiful bluejays outside my house this morning. So cute!</p>
+        <div className="Chirp-Text">
+            <p>{ props.text }</p>
         </div>
     );
 };

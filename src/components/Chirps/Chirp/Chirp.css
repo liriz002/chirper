@@ -5,3 +5,10 @@
     padding: 1%;
     text-align: left;
 }
+
+.Chirp-Control-Divider {
+    border: none;
+    height: 1px;
+    color: gainsboro;
+    background-color: gainsboro;
+}

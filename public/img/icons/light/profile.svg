@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="21px" viewBox="0 0 15 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>icons/light/profile</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Exports-for-Dev-Candidate" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="icons/light/profile" transform="translate(0.000000, 0.675366)" fill="#FFFFFF" stroke="#FFFFFF">
+            <path d="M11.1841,8.93 C12.9531,10.159 14.1111,12.206 14.1111,14.523 L14.1111,19.321 L0.5001,19.321 L0.5001,14.523 C0.5001,12.206 1.6591,10.159 3.4271,8.93" id="Stroke-1"></path>
+            <path d="M11.2251,7.8699 C10.3751,9.1269 8.9371,9.9539 7.3051,9.9539 C4.6951,9.9539 2.5791,7.8379 2.5791,5.2269 C2.5791,2.6169 4.6951,0.4999 7.3051,0.4999 C9.9161,0.4999 12.0331,2.6169 12.0331,5.2269 C12.0331,6.2059 11.7351,7.1159 11.2251,7.8699" id="Stroke-3"></path>
+        </g>
+    </g>
+</svg>

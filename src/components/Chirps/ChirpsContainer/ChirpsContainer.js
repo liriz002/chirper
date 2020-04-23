@@ -4,7 +4,7 @@ import ChirpsColumn from '../ChirpsColumn/ChirpsColumn';
 const ChirpsContainer = () => {
     return (
         <div>
-            <ChirpsColumn />
+            <ChirpsColumn startIndex={ 0 } />
         </div>
     );
 };
