@@ -21,6 +21,7 @@ const Chirp = ( props ) => {
                 isFollowing={ chirp.isFollowing }
             />
             <ChirpText text={ chirp.text } />
+            <ChirpPhotos photos={ chirp.photos } />
             <hr className="Chirp-Control-Divider" />
             <ChirpControls likes={ chirp.likes } comments={ chirp.comments } />
         </div>
@@ -36,7 +37,6 @@ function mapStateToProps( state ) {
 export default connect( mapStateToProps, null )( Chirp );
 
 /*
-            <ChirpPhotos />
 
 
             */

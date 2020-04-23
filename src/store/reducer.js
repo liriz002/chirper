@@ -11,12 +11,15 @@ const initialState = {
             timestamp: '2 hours ago',
             isFollowing: false,
             text: 'Saw these beautiful bluejays outside my house this morning. So cute!',
-            pictures: [
-
+            photos: [
+                '1.jpg',
+                '2.jpg',
+                '3.jpg'
             ],
             likes: '2,721',
             comments: '130'
         },
+        
         {
             id: 1,
             user_id: '2',
@@ -26,7 +29,7 @@ const initialState = {
             isFollowing: false,
             text: `Although field notes and nature journals do overlap, they sometimes serve different purposes. The goal of keeping field notes is usually to document key points
             of your bird observations for the purposes of identification, data collection, or other purposes.`,
-            pictures: [],
+            photos: [],
             likes: '490',
             comments: '22'
         },
@@ -37,8 +40,8 @@ const initialState = {
             username: 'thisisjim',
             timestamp: '8 hours ago',
             isFollowing: true,
-            text: 'Looking for recomendations for bird feeders that are afoordable that will work well in my yard. Please leave your suggestions!',
-            pictures: [],
+            text: 'Saw these beautiful bluejays outside my house this morning. So cute!',
+            photos: [],
             likes: '15',
             comments: '79'
         },
@@ -50,10 +53,13 @@ const initialState = {
             timestamp: '2 hours',
             isFollowing: false,
             text: 'Que alguien me diga que animal es este. Pensé que era un pato, veanle las patas. Mi mama tiene un zoologico en su casa. Se lo voy a llevar a ella.',
-            pictures: [],
+            photos: [
+                '4.jpg'
+            ],
             likes: '2,242,419',
             comments: '12,412'
         },
+        
     ]
 };
 
