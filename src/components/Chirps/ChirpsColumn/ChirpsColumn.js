@@ -13,7 +13,7 @@ const ChirpsColumn = ( props ) => {
                 return (
                     <Chirp key={ index } id={ chirp.id } />
                 )
-            }) 
+              }) 
             }
         </div>
         )}
