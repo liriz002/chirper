@@ -6,8 +6,8 @@
 .User-Photo {
     border-radius: 50%;
     height: 40px;
-    width: auto;
-    object-fit: contain;
+    width: 40px;
+    object-fit: cover;
 }
 
 .User-Details {

@@ -3,7 +3,7 @@ import ChirpsContainer from '../Chirps/ChirpsContainer/ChirpsContainer';
 
 const Content = () => {
     return (
-        <div>
+        <div class="container">
             <ChirpsContainer />
         </div>
     );

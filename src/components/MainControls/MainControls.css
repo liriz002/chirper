@@ -1,0 +1,26 @@
+#Main-Controls {
+    display: flex;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#Post-Button-Container {
+    margin-left: auto;
+}
+
+.Main-Control {
+    font-size: 1.50em;
+    margin-right: 5%;
+    color: #817ee6;
+    cursor: pointer;
+}
+
+.Main-Control:hover {
+    transform: scale(1.05);
+    transition: 0.25s;
+}
+
+.Selected-Main-Control {
+    font-weight: bold;
+    color: #464646;
+}

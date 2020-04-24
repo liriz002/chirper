@@ -8,9 +8,9 @@ const ChirpUser = ( props ) => {
     // We display a follow or unfollow button, accordingly
     let followBtn;
     if ( props.isFollowing ) {
-        followBtn = <Button classes="Unfollow-Button" title="Unfollow" />
+        followBtn = <Button classes=" Unfollow-Button" title="Unfollow" />
     } else {
-        followBtn = <Button title="Follow" />
+        followBtn = <Button classes="" title="Follow" />
     }
 
     return (

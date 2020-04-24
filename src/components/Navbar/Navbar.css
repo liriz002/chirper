@@ -1,0 +1,41 @@
+#Navbar {
+    background-color: #817ee6;
+    color: white;
+    height: 55px;
+}
+
+#Navbar-Elements-Container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 10px;
+}
+
+#App-Name {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+#Navbar-Search {
+    padding: 7px;
+    padding-left: 28px;
+    border: none;
+    margin-right: 0px;
+    font-size: 0.60em;
+    border-radius: 5px;
+    width: 35%;
+    min-width: 400px;
+}
+
+#Navbar-Search::placeholder {
+    color: lightgrey;
+    font-weight: bold;
+}
+
+#Navbar-Search-Icon {
+    position: relative;
+    left: 20px;
+    top: 3px;
+    height: 12px;
+    width: auto;
+}

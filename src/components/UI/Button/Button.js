@@ -3,7 +3,12 @@ import './Button.css';
 
 const Button = ( props ) => {
     return (
-        <div className={ "Button " + props.classes }>{ props.title }</div>
+        <span>
+            <button className={ "Button" + props.classes }>
+                { props.iconURL && <img className="Button-Icon" src={ props.iconURL } /> }
+                <span>{ props.title }</span>
+            </button>
+        </span>
     );
 };
 
