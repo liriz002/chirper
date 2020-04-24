@@ -31,6 +31,10 @@
     max-height: 220px;
 }
 
+.Chirp-Photos {
+    margin-top: 16px;
+}
+
 .Chirp-Photos img:hover {
     cursor: pointer;
 }
@@ -64,4 +68,5 @@
 .True-Single-Photo {
     border-bottom-right-radius: 3px;
     border-bottom-left-radius: 3px;
+    margin-bottom: 5px;
 }

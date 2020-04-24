@@ -8,21 +8,21 @@ const ChirpPhotos = ( props ) => {
     if ( props.photos.length >= 3 ) {
         photosJSX = 
         <div>
-        <img className="Chirp-Single-Photo" src={ "img/birds/" + props.photos[0] } />
+        <img className="Chirp-Single-Photo" src={ "img/birds/" + props.photos[0] } alt="Top" />
         <div className="Multiple-Photos-Container"> 
             <div className="Multiple-Photo-Container">
-             <img className="Chirp-Multiple-Photos Chirp-Multiple-Left-Photo" src={ "img/birds/" + props.photos[1] } />
+             <img className="Chirp-Multiple-Photos Chirp-Multiple-Left-Photo" src={ "img/birds/" + props.photos[1] } alt="Bottom Left" />
             </div>
             <div className="Multiple-Photo-Container Multiple-Photo-Right">
-                <img className="Chirp-Multiple-Photos Chirp-Multiple-Right-Photo" src={ "img/birds/" + props.photos[2] } />
+                <img className="Chirp-Multiple-Photos Chirp-Multiple-Right-Photo" src={ "img/birds/" + props.photos[2] } alt="Bottom Right" />
                 <div className="All-Photos-Overlay">
                     <h3>See all 5 photos</h3>
                 </div>
             </div>
         </div>
         </div>
-    } else if ( props.photos.length == 1 ) {
-        photosJSX = <img className="Chirp-Single-Photo True-Single-Photo" src={ "img/birds/" + props.photos[0] } />
+    } else if ( props.photos.length === 1 ) {
+        photosJSX = <img className="Chirp-Single-Photo True-Single-Photo" src={ "img/birds/" + props.photos[0] } alt="Single" />
     }
 
     return (

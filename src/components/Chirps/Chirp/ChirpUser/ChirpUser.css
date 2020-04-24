@@ -8,6 +8,7 @@
     height: 40px;
     width: 40px;
     object-fit: cover;
+    cursor: pointer;
 }
 
 .User-Details {
@@ -35,6 +36,11 @@
     cursor: pointer;
     color: #817ee6;
     font-weight: bold;
+}
+
+.Username:hover {
+    color: #6561df;
+    transition: 0.4s;
 }
 
 .Chirp-Timestamp {

@@ -9,7 +9,6 @@ import './Chirp.css';
 
 const Chirp = ( props ) => {
     let chirp = props.chirps[ props.id ];
-    console.log(chirp);
 
     return (
         <div className="Chirp">

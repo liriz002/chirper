@@ -18,7 +18,7 @@ const ChirpUser = ( props ) => {
         <div className="Chirp-User">
             <div className="User-Details">
                 <span>
-                 <img className="User-Photo" src={ "img/users/" + props.userId + ".jpg" } />
+                 <img className="User-Photo" src={ "img/users/" + props.userId + ".jpg" } alt="User" />
                 </span>
                 <span className="Name-Username-Container">
                     <div className="Name-User">{ props.nameUser }</div>

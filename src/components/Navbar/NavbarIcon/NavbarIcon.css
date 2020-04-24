@@ -8,6 +8,10 @@
     margin-left: 20px;
 }
 
+.Navbar-Icon:hover {
+    opacity: 0.90;
+}
+
 .Navbar-Icon-Legend {
     display: inline-block;
     background-color: #292929;
@@ -20,6 +24,7 @@
     position: relative;
     bottom: 10px;
     right: 5px;
+    cursor: pointer;
 }
 
 .Navbar-Icon-Legend span {

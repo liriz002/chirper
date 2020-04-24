@@ -5,7 +5,6 @@ import './ChirpsContainer.css';
 
 const ChirpsContainer = ( props ) => {
     let allChirps = JSON.parse( JSON.stringify( props.chirps ) );
-    console.log('calling here');
 
     return (
         <div className="Chirps-Container">

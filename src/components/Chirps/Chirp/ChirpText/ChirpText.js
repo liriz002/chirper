@@ -9,16 +9,16 @@ const ChirpText = ( props ) => {
 
     return (
         <div className="Chirp-Text">
-            <p>
+            <div>
                 { props.text.split('\n').map( ( item, i ) => {
-                    if ( i == paragraphNum - 1) {
+                    if ( i === paragraphNum - 1) {
                         return <p style={{ display: 'inline' }} key={ i }>{ item }</p>
                     } else {
                         return <p key={ i }>{ item }</p> 
                     } 
                 } ) }
                 { props.text.length > 430 &&  <span className="Read-More-Button"> Read More</span>}
-            </p>
+            </div>
         </div>
     );
 };

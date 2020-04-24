@@ -5,7 +5,7 @@ const Button = ( props ) => {
     return (
         <span>
             <button className={ "Button" + props.classes }>
-                { props.iconURL && <img className="Button-Icon" src={ props.iconURL } /> }
+                { props.iconURL && <img className="Button-Icon" src={ props.iconURL } alt="Button Icon" /> }
                 <span>{ props.title }</span>
             </button>
         </span>

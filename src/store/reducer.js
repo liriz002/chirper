@@ -1,7 +1,7 @@
 import * as Actions from './action';
 
 const initialState = {
-    loading: false,
+    isLoading: true,
     chirps: [
         {
             id: 0,
@@ -104,7 +104,6 @@ const initialState = {
 const globalProps = ( state = initialState, action ) => {
     switch( action.type ) {
         case Actions.UPDATE_IS_LOADING:
-            console.log('is loading reducer');
             return { ...state, isLoading: action.isLoading };
         default:
             return state;
