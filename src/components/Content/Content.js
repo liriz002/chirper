@@ -1,11 +1,9 @@
 import React from 'react';
 import ChirpsContainer from '../Chirps/ChirpsContainer/ChirpsContainer';
-import { Motion, spring } from 'react-motion';
 import { connect } from 'react-redux';
 import Spinner from '../UI/Spinner/Spinner';
 
 const Content = ( props ) => {
-
     let content;
     if ( props.isLoading ) {
         content = 
