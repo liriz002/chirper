@@ -24,3 +24,25 @@
     font-weight: bold;
     color: #464646;
 }
+
+@media (max-width: 580px) {
+    #Main-Controls {
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+    
+
+    .Main-Control {
+        width: 50%;
+        font-size: 0.8em;
+    }
+
+    .Selected-Main-Control {
+        border-bottom: 2px solid #464646;
+        padding-bottom: 3px;
+    }
+
+    #Post-Button-Container {
+        display: none;
+    }
+}

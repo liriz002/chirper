@@ -24,7 +24,19 @@
     font-size: 0.60em;
     border-radius: 5px;
     width: 35%;
-    min-width: 400px;
+    width: 300px;
+}
+
+@media (max-width: 768px) {
+    #Navbar-Search {
+        width: 200px;
+    }
+}
+
+@media (max-width: 580px) {
+    #Navbar-Search {
+        display: none;
+    }
 }
 
 #Navbar-Search::placeholder {
@@ -39,3 +51,61 @@
     height: 12px;
     width: auto;
 }
+
+#Navbar-Responsive-Search-Icon {
+    position: relative;
+    top: 7px;
+    display: none;
+}
+
+#Hamburger-Icon {
+    display: none;
+    cursor: pointer;
+}
+
+.Hamburger-Icon-Bar-1, .Hamburger-Icon-Bar-2, .Hamburger-Icon-Bar-3 {
+    width: 25px;
+    height: 2px;
+    background-color: white;
+    margin: 4px 0;
+    transition: 0.4s;
+  }
+  
+  .change .Hamburger-Icon-Bar-1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .change .Hamburger-Icon-Bar-2 {opacity: 0;}
+  
+  .change .Hamburger-Icon-Bar-3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+
+@media (max-width: 580px) {
+    #Navbar-Search-Icon {
+        display: none;
+    }
+
+    #Navbar-Responsive-Search-Icon {
+        display: inline;
+    }
+
+    #App-Name {
+        font-size: 1.25em;
+        position: relative;
+        top: 3px;
+        display: block;
+        margin-left: auto;
+        left: 10px;
+    }
+
+    #Hamburger-Icon {
+        display: block;
+        position: absolute;
+        left: 0;
+        bottom: -3px;
+    }
+}
+

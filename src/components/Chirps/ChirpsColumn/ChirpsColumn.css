@@ -1,3 +1,35 @@
 .Chirps-Column {
-    flex: 0 0 33%;
+    width: 33%;
+}
+
+.Chirps-Container .Chirps-Column:nth-child(2) {
+    position: relative;
+    left: 1.5%;
+}
+
+.Chirps-Container .Chirps-Column:nth-child(3) {
+    position: relative; 
+    left: 3%;
+}
+
+@media (max-width: 992px) {
+    .Chirps-Column {
+        width: 50%;
+    }
+
+    .Chirps-Container .Chirps-Column:nth-child(3) {
+        position: relative; 
+        left: 0%;
+        bottom: 45px;
+    }
+}
+
+@media (max-width: 580px) {
+    .Chirps-Column {
+        width: 100%;
+    }
+
+    .Chirps-Container .Chirps-Column:nth-child(2) {
+        left: 0;
+    }
 }
