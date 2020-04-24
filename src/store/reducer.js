@@ -38,7 +38,7 @@ const initialState = {
             name: 'Jim Maple',
             username: 'thisisjim',
             timestamp: '1 hour',
-            isFollowing: true,
+            isFollowing: false,
             text: 'Looking for recommendations for bird feeders that are affordable and that will work well in my yard. Please leave your suggestions!',
             photos: [],
             likes: '15',
@@ -50,7 +50,7 @@ const initialState = {
             name: 'Franz',
             username: 'Franz_9191',
             timestamp: '2 hours',
-            isFollowing: false,
+            isFollowing: true,
             text: 'Looking like straight out of a Pixar movie, I present you a Mandarin duck.',
             photos: [
                 '4.jpg'
@@ -76,7 +76,7 @@ const initialState = {
             name: 'Rachel Johnstone',
             username: 'rachyrabbit',
             timestamp: '8 hours',
-            isFollowing: false,
+            isFollowing: true,
             text: `Although field notes and nature journals do overlap, they sometimes serve different purposes. The goal of keeping field notes is usually to document key points of your bird observations for the purpose of identification, data collection, or other purposes.
             Size, distinctive markings, habitual movements, unusual postures, voice and flight behavior (all of which are critical in credibly documentary bird sightings) are typically...`,
             photos: [],
