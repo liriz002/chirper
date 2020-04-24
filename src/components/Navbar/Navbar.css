@@ -40,6 +40,7 @@
     top: 3px;
     height: 15px;
     width: auto;
+    z-index: 1000;
 }
 
 #Navbar-Responsive-Search-Icon {
@@ -84,6 +85,17 @@
     #Navbar-Search {
         width: 200px;
         font-size: 0.7em;
+        position: relative;
+        top: 1px;
+    }
+
+    .Navbar-Icon {
+        position: relative;
+        top: 5px;
+    }
+
+    #Navbar-Search-Icon {
+        top: 5px;
     }
 }
 

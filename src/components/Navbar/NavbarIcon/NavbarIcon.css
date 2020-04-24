@@ -33,6 +33,13 @@
     font-weight: bold;
 }
 
+@media (max-width: 768px) {
+    .Navbar-Icon {
+        position: relative;
+        top: 5px;
+    }
+}
+
 @media (max-width: 580px) {
     .Navbar-Icon, .Navbar-Icon-Legend {
         display: none;

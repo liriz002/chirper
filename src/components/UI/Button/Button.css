@@ -12,9 +12,11 @@
 }
 
 .Post-Button {
-    padding: 11px 15px;
+    padding: 11px 18px;
     display: flex;
     align-items: center;
+    position: relative;
+    left: 2px;
 }
 
 .Button:hover {

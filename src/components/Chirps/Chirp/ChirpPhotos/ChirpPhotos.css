@@ -1,6 +1,6 @@
 .Chirp-Single-Photo {
     margin-top: 0px;
-    max-height: 220px;
+    max-height: 200px;
     width: 100%;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -28,7 +28,8 @@
 .Multiple-Photo-Container {
     display: inline-block;
     width: 50%;
-    max-height: 220px;
+    max-height: 200px;
+    overflow-y: hidden;
 }
 
 .Chirp-Photos {
@@ -58,6 +59,19 @@
     text-align: center;
     justify-content: center;
     cursor: pointer;
+    height: 98%;
+}
+
+@media (min-width: 2132px) {
+    .All-Photos-Overlay {
+        height: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    .All-Photos-Overlay {
+        height: 97%;
+    }
 }
 
 .All-Photos-Overlay h3 {

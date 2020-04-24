@@ -20,14 +20,21 @@
     .Chirps-Container .Chirps-Column:nth-child(3) {
         position: relative; 
         left: 0%;
-        bottom: 8px;
+        bottom: 65px;
     }
 }
 
 @media (max-width: 772px) {
     .Chirps-Container .Chirps-Column:nth-child(3) {
         position: relative; 
-        bottom: 8px;
+        bottom: 72px;
+    }
+}
+
+@media (max-width: 650px) {
+    .Chirps-Container .Chirps-Column:nth-child(3) {
+        position: relative; 
+        bottom: 93px;
     }
 }
 
