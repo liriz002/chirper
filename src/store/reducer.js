@@ -8,9 +8,9 @@ const initialState = {
             user_id: '1',
             name: 'Tessa Brown',
             username: 'tessssa_b',
-            timestamp: '2 hours ago',
+            timestamp: '2 minutes',
             isFollowing: false,
-            text: 'Saw these beautiful bluejays outside my house this morning. So cute!',
+            text: 'I captured a couple of beauts this morning doing their thing. Enjoy!',
             photos: [
                 '1.jpg',
                 '2.jpg',
@@ -25,10 +25,9 @@ const initialState = {
             user_id: '2',
             name: 'Jim Maple',
             username: 'thisisjim',
-            timestamp: '8 hours',
+            timestamp: '20 minutes',
             isFollowing: false,
-            text: `Although field notes and nature journals do overlap, they sometimes serve different purposes. The goal of keeping field notes is usually to document key points
-            of your bird observations for the purposes of identification, data collection, or other purposes.`,
+            text: 'If wanting another bird in the house is wrong, then I don\'t want to be right.',
             photos: [],
             likes: '490',
             comments: '22'
@@ -38,7 +37,7 @@ const initialState = {
             user_id: '2',
             name: 'Jim Maple',
             username: 'thisisjim',
-            timestamp: '8 hours ago',
+            timestamp: '1 hour',
             isFollowing: true,
             text: 'Looking for recommendations for bird feeders that are affordable and that will work well in my yard. Please leave your suggestions!',
             photos: [],
@@ -52,7 +51,7 @@ const initialState = {
             username: 'Franz_9191',
             timestamp: '2 hours',
             isFollowing: false,
-            text: 'Que alguien me diga que animal es este. Pensé que era un pato, veanle las patas. Mi mama tiene un zoologico en su casa. Se lo voy a llevar a ella.',
+            text: 'Looking like straight out of a Pixar movie, I present you a Mandarin duck.',
             photos: [
                 '4.jpg'
             ],
@@ -61,9 +60,9 @@ const initialState = {
         },
         {
             id: 4,
-            user_id: '3',
-            name: 'Franz',
-            username: 'Franz_9191',
+            user_id: '2',
+            name: 'Jim Maple',
+            username: 'thisisjim',
             timestamp: '4 hours',
             isFollowing: false,
             text: 'What\'s your favorite bird and why?',
@@ -76,12 +75,10 @@ const initialState = {
             user_id: '5',
             name: 'Rachel Johnstone',
             username: 'rachyrabbit',
-            timestamp: '8 hours ago',
+            timestamp: '8 hours',
             isFollowing: false,
-            text: `Although field notes and nature journals do overlap they somtimes serve different purposes. The goal of keeping field notes is usually to document key points of your bird
-            observations for the purpose of identification, data collection, or other purposes.
-            \n\n
-            Size, distinctive markings, habitual movements, unusual postures, voice and flight behavior - all of which are critical in credibly documentary bird sightings - are typically...`,
+            text: `Although field notes and nature journals do overlap, they sometimes serve different purposes. The goal of keeping field notes is usually to document key points of your bird observations for the purpose of identification, data collection, or other purposes.
+            Size, distinctive markings, habitual movements, unusual postures, voice and flight behavior (all of which are critical in credibly documentary bird sightings) are typically...`,
             photos: [],
             likes: '58',
             comments: '4'
@@ -91,7 +88,7 @@ const initialState = {
             user_id: '4',
             name: 'Ricky',
             username: 'rick_hanz',
-            timestamp: '2 days ago',
+            timestamp: '2 days',
             isFollowing: false,
             text: 'Love bird watching because of these sweet views. Saw some great birds too today. Anyone else?',
             photos: [

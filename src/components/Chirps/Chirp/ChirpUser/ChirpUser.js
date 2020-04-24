@@ -29,7 +29,7 @@ const ChirpUser = ( props ) => {
                 { followBtn }
             </div>
         </div>
-        <p className="Chirp-Timestamp">{ props.timestamp } </p>
+        <p className="Chirp-Timestamp">{ props.timestamp } ago</p>
         </div>
     );
 };

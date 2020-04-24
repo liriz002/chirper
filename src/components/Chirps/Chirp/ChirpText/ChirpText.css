@@ -1,4 +1,10 @@
 .Chirp-Text {
-    font-size: 10px;
+    font-size: 0.85rem;
     color: grey;
+}
+
+.Read-More-Button {
+    color: #817ee6;
+    font-weight: bold;
+    cursor: pointer;
 }

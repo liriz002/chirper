@@ -18,25 +18,14 @@
 
 #Navbar-Search {
     padding: 7px;
-    padding-left: 28px;
+    padding-left: 32px;
     border: none;
     margin-right: 0px;
-    font-size: 0.60em;
+    font-size: 0.9em;
     border-radius: 5px;
     width: 35%;
-    width: 300px;
-}
-
-@media (max-width: 768px) {
-    #Navbar-Search {
-        width: 200px;
-    }
-}
-
-@media (max-width: 580px) {
-    #Navbar-Search {
-        display: none;
-    }
+    width: 400px;
+    font-family: 'Quicksand';
 }
 
 #Navbar-Search::placeholder {
@@ -46,9 +35,9 @@
 
 #Navbar-Search-Icon {
     position: relative;
-    left: 20px;
+    left: 25px;
     top: 3px;
-    height: 12px;
+    height: 15px;
     width: auto;
 }
 
@@ -83,6 +72,20 @@
     transform: rotate(45deg) translate(-8px, -8px);
   }
 
+
+@media (max-width: 992px) {
+    #Navbar-Search {
+        width: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    #Navbar-Search {
+        width: 200px;
+        font-size: 0.7em;
+    }
+}
+
 @media (max-width: 580px) {
     #Navbar-Search-Icon {
         display: none;
@@ -106,6 +109,10 @@
         position: absolute;
         left: 0;
         bottom: -3px;
+    }
+
+    #Navbar-Search {
+        display: none;
     }
 }
 

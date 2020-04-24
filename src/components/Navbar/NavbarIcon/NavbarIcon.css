@@ -1,6 +1,6 @@
 
 .Navbar-Icon {
-    height: 13px;
+    height: 18px;
     width: auto;
     position: relative;
     top: 3px;
@@ -13,17 +13,17 @@
     background-color: #292929;
     color: white;
     border-radius: 50%;
-    height: 10px;
-    width: 10px;
-    font-size: 6px;
+    height: 12px;
+    width: 12px;
+    font-size: 9px;
     font-weight: bold;
     position: relative;
-    bottom: 6px;
-    right: 3px;
+    bottom: 10px;
+    right: 5px;
 }
 
 .Navbar-Icon-Legend span {
-    line-height: 10px;
+    line-height: 12px;
     position: relative;
     font-weight: bold;
 }

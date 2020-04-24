@@ -9,7 +9,7 @@
 }
 
 .Main-Control {
-    font-size: 1.50em;
+    font-size: 1.80em;
     margin-right: 5%;
     color: #817ee6;
     cursor: pointer;
@@ -34,7 +34,7 @@
 
     .Main-Control {
         width: 50%;
-        font-size: 0.8em;
+        font-size: 1.0em;
     }
 
     .Selected-Main-Control {

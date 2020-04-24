@@ -20,7 +20,14 @@
     .Chirps-Container .Chirps-Column:nth-child(3) {
         position: relative; 
         left: 0%;
-        bottom: 45px;
+        bottom: 8px;
+    }
+}
+
+@media (max-width: 772px) {
+    .Chirps-Container .Chirps-Column:nth-child(3) {
+        position: relative; 
+        bottom: 8px;
     }
 }
 
@@ -31,5 +38,11 @@
 
     .Chirps-Container .Chirps-Column:nth-child(2) {
         left: 0;
+    }
+
+    .Chirps-Container .Chirps-Column:nth-child(3) {
+        position: relative; 
+        left: 0%;
+        bottom: 0px;
     }
 }

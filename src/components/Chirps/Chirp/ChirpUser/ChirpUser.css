@@ -31,12 +31,14 @@
 }
 
 .Username {
-    font-size: 10px;
+    font-size: 0.70em;
     cursor: pointer;
+    color: #817ee6;
+    font-weight: bold;
 }
 
 .Chirp-Timestamp {
     margin-top: 2px;
-    font-size: 10px;
+    font-size: 0.8em;
     color:darkgrey;
 }

@@ -1,5 +1,6 @@
 .Chirp-Controls {
     display: flex;
+    margin-top: 3%;
 }
 
 .Chirp-Control-Container {
@@ -8,14 +9,14 @@
 }
 
 .Chirp-Control-Count {
-    font-size: 9px;
+    font-size: 0.75rem;
     margin-left: 4px;
     font-weight: bold;
     color: grey;
 }
 
 .Chirp-Control-Img {
-    height: 13px;
+    height: 15px;
     width: auto;
 }
 
